@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #07110d;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #0b1b13;
+}
+
+nav a {
+  color: #93ff6d;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 80px 40px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 18px;
+  margin-right: 10px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.primary {
+  background: #93ff6d;
+  color: #07110d;
+}
+
+.secondary {
+  border: 1px solid #93ff6d;
+  color: #93ff6d;
+}
+
+section {
+  padding: 40px;
+}
+
+footer {
+  padding: 30px 40px;
+  border-top: 1px solid #1d3327;
+}
